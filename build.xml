@@ -1,0 +1,14 @@
+<?xml version="1.0" ?>
+<!-- Configuration of the Ant build system to generate a Jar file --> 
+<project name="HsqldbCreator" default="CreateJar">
+	
+    <target name="compile" description="Compile source">
+        <mkdir dir="bin" />
+    	<javac includeantruntime="false"
+    		srcdir="src:fit:test" includes="**" destdir="bin" />
+    </target>
+
+	<target name="CreateJar" description="Create Jar file" depends="compile">
+		<jar jarfile="HsqldbCreator.jar" basedir="bin" includes="**/*.class" />
+	</target>
+</project>
