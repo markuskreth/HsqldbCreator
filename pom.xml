@@ -3,7 +3,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>de.kreth.hsqldbcreator</groupId>
 	<artifactId>HsqldbCreator</artifactId>
-	<version>0.1.0</version>
+	<version>0.1.1-SNAPSHOT</version>
 	<name>HsqldbCreator</name>
 	<description>Lib for creating Hsqldb Database</description>
 	
