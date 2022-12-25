@@ -27,4 +27,21 @@
 			</plugin>
 		</plugins>
 	</build>
+	
+	<distributionManagement>
+		<snapshotRepository>
+			<id>kreth.snapshots</id>
+			<url>https://nexus.kreth-development.de/repository/maven-snapshots/</url>
+		</snapshotRepository>
+		<repository>
+			<id>kreth.releases</id>
+			<url>https://nexus.kreth-development.de/repository/maven-releases/</url>
+		</repository>
+	</distributionManagement>
+
+	<scm>
+		<url>https://gitea.kreth-development.de/markus/HsqldbCreator</url>
+		<connection>scm:git:https://gitea.kreth-development.de/markus/HsqldbCreator.git</connection>
+		<developerConnection>scm:git:https://gitea.kreth-development.de/markus/HsqldbCreator.git</developerConnection>
+	</scm>
 </project>
