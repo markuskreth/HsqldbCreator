@@ -40,8 +40,8 @@
 	</distributionManagement>
 
 	<scm>
-		<url>https://gitea.kreth-development.de/markus/HsqldbCreator</url>
-		<connection>scm:git:https://gitea.kreth-development.de/markus/HsqldbCreator.git</connection>
-		<developerConnection>scm:git:https://gitea.kreth-development.de/markus/HsqldbCreator.git</developerConnection>
+		<url>https://github.com/markuskreth/HsqldbCreator</url>
+		<connection>scm:git:https://${env.GITHUB_ACCESS_TOKEN}@github.com/markuskreth/HsqldbCreator.git</connection>
+		<developerConnection>scm:git:https://${env.GITHUB_ACCESS_TOKEN}@github.com/markuskreth/HsqldbCreator.git</developerConnection>
 	</scm>
 </project>
